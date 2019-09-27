@@ -1,0 +1,57 @@
+.Dd 8/4/10
+.Dt HELP
+.Os Conall Caverly-17336471
+.Sh NAME
+.Nm python3 my_shell.py
+.Nd an interactive CLI
+
+
+.Sh DESCRIPTION
+.Pp
+This is the system's help page. Underneath is a list of the shells commands along with descriptions.
+
+.Pp
+
+.Sh COMMANDS
+
+.Pp
+
+.Nm A list of the shells commands along with descriptions:
+.Bl
+.Bl
+
+.Nm cd -
+\ Changes the current directory to the <directory> supplied. If it does not exist it returns the current directory. Also changes the PWD environment variable.
+
+.Nm clr -
+\
+clears the terminal.
+
+.Nm dir -
+\
+Lists the contents of the current working directory. Also if supplied with a valid <directory> it will list the contents of that directory.
+
+.Nm echo -
+\
+Takes as an argument a comment which it displays on the terminal followed by a newline. Multiple spaces and tabs are reduced to a single space.
+
+.Nm environ -
+\
+Lists all the environment strings in a formatted output.
+
+.Nm help -
+\
+displays the shells help manual.
+
+.Nm pause -
+\
+pause operation of the shell until the Enter key is pressed.
+
+.Nm quit -
+\
+quits the shell.
+
+.Sh OTHER
+The shell can run a batch file using myshell.py <batchfile>. 
+.Pp
+The shell is also capable of running files and opening applications. Background execution can be initialised by typing "&" at the end of your input.
