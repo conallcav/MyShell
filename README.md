@@ -4,6 +4,7 @@ This Command Line Interpreter is a fundamental interface to an Operating System.
 It can be run by typing python3 myshell.py once the relevant files are in the cwd. Below you can find a list of executable commands and different functions the shell provides.
 
 COMMANDS
+     
      The shells commands can be executed by typing them after the command line prompt provided. The syntax must follow the syntax shown below or else the
      commands will not work.
      Here is a list of the shells commands along with descriptions:
@@ -26,6 +27,7 @@ COMMANDS
      quit - quits the shell.
 
 OTHER
+     
      The shell can run a batch file using python3 myshell.py <batchfile>.
      The batchfile should be formatted with a valid command on each line.
      The shell will run through each line, execute all the commands and then exit.
