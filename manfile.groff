@@ -1,6 +1,6 @@
 .Dd 8/4/10
 .Dt HELP
-.Os Conall Caverly-17336471
+.Os Conall Caverly
 .Sh NAME
 .Nm python3 my_shell.py
 .Nd an interactive CLI
